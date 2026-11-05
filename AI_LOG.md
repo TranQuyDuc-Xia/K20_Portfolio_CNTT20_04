@@ -29,3 +29,12 @@
 - **Quyết định:** dùng trạng thái bản nháp để không khẳng định sản phẩm đã là v7 hoặc đã kiểm chứng deploy khi chưa có căn cứ. Ghi rõ các lỗi cũ chỉ được trích từ ghi chú ban đầu.
 - **Thay đổi:** tạo `RELEASE_NOTES.md` và thêm liên kết tới tài liệu trong `README.md`.
 - **Kiểm chứng:** đối chiếu nội dung trang và SHA local/remote; thử HTTP status của URL Pages. Cần chạy `git diff --check` sau khi ghi hồ sơ.
+
+## Hỗ trợ ghi hồ sơ Lab 8
+
+- **Ngày:** 2026-11-05.
+- **Yêu cầu:** ghi mục V8 trong `CHANGELOG.md`, kết quả ba phép thử trong `docs/evidence-index.md` và cập nhật nhật ký AI.
+- **Công cụ:** Copilot trong VS Code; AI đã hỗ trợ biên tập README ở lượt làm việc trước và soạn các mục hồ sơ trong lượt này.
+- **Gợi ý của AI:** mô tả các thay đổi README thực tế, ghi kết quả mở trang Pages, và đánh dấu rõ các phép thử chưa thực hiện thay vì ghi “Đạt”.
+- **Quyết định:** chỉ ghi trang Pages đã mở và nội dung trang hiển thị; để mục menu và giả lập điện thoại là “Chưa kiểm tra”. Không khẳng định ảnh/CSS đã được kiểm tra riêng.
+- **Giới hạn:** lệnh đọc lịch sử Git và thao tác kiểm tra tiếp trên trình duyệt không được cấp quyền, nên chưa xác nhận đầy đủ các commit kể từ V7, kết quả bấm menu, trạng thái ảnh/CSS hoặc giao diện điện thoại. Không có ảnh chụp màn hình được lưu.
